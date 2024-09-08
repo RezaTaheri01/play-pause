@@ -49,6 +49,8 @@ def main():
         if int(current) != int(start_volume):
             if is_audio_playing():
                 pyautogui.press('playpause')
+                # volume.SetMasterVolumeLevelScalar(0.0, None) # set system volume to zero
+                volume.SetMute(True, None) # mute
             start_volume = current
 
 
