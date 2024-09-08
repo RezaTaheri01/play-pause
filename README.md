@@ -23,13 +23,13 @@ Ensure the following dependencies are installed before running the script:
 
 You can install these with pip:
 
-```
-pip install pycaw tendo pyautogui comtypes keyboard
-```
+    ```
+    pip install pycaw tendo pyautogui comtypes keyboard
+    ```
 or
-```
-pip install -r req.txt
-```
+    ```
+    pip install -r req.txt
+    ```
 
 Usage
 -----
