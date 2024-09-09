@@ -51,6 +51,7 @@ def main():
                 pyautogui.press('playpause')
                 # volume.SetMasterVolumeLevelScalar(0.0, None) # set system volume to zero
                 volume.SetMute(True, None) # mute
+                # add actions as you wish (it's better to set sleep between your actions)
             start_volume = current
 
 
