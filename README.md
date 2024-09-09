@@ -21,7 +21,7 @@ Ensure the following dependencies are installed before running the script:
 *   `comtypes` (for interacting with Windows audio interfaces)
 *   `keyboard`
 
-You can install these with pip:
+You can install these with pip(Virtual environment recommended):
 
 ```
     pip install pycaw tendo pyautogui comtypes keyboard
