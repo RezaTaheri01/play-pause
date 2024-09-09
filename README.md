@@ -54,12 +54,16 @@ Notes
 -----
 
 *   To stop program press alt + q
-*   This script is set to hide the console window when running. To view the console, you can comment out the line that hides it:   
-
-    python
-    
+*   This script is set to hide the console window when running. To view the console, you can comment out the line that hides it:
+  
     ```
     # ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)  # hide
     ```
 
 *   It uses a singleton instance to prevent multiple instances of the script from running simultaneously.
+*   If you don't want mute feature, you can comment out the line:
+  
+    ```
+    # volume.SetMute(True, None) # mute
+    ```
+
