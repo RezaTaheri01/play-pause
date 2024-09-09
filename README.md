@@ -45,7 +45,7 @@ Usage
 3.  **Running the Script**: Simply run the script using Python. It will monitor the system volume and pause audio playback if the conditions are met.
 
     ```
-    python PlayPause.py
+    python PausePlay.py
     ```
 
 3.  **Process-Specific Behavior**: The script is configured to ignore a specific process (e.g., `bucklespring`) based on its process ID in the `is_audio_playing` function. You can modify this based on your needs.
